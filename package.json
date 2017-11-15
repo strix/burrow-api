@@ -1,0 +1,35 @@
+{
+  "name": "burrow-api",
+  "version": "0.1.0",
+  "description": "REST API to interface with Burrow",
+  "main": "src/index.js",
+  "scripts": {
+    "lint": "standard --fix",
+    "predev": "npm run lint",
+    "dev": "npm start",
+    "devmon": "nodemon --exec npm run dev",
+    "start": "node src/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/strix/burrow-api.git"
+  },
+  "keywords": [
+    "thermostat",
+    "diy",
+    "home",
+    "automation",
+    "burrow"
+  ],
+  "author": "Brance Boren",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/strix/burrow-api/issues"
+  },
+  "homepage": "https://github.com/strix/burrow-api#readme",
+  "devDependencies": {
+    "nodemon": "^1.12.1",
+    "standard": "^10.0.3"
+  }
+}
